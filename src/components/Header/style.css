@@ -15,7 +15,7 @@
 }
 
 
-.header .container img{
+.header .container .logo{
     width:109px;
     cursor:pointer;
 }
@@ -36,4 +36,16 @@
     font-size:14px;
     padding:0 7px;
 }
+.menu-icons{
+    display:flex;
+    gap:16px;
+    cursor:pointer;
+    align-items:center;
+}
 
+.menu-icons .img-user{
+    width:26px;
+    height:26px;
+    border-radius:50%;
+
+}
