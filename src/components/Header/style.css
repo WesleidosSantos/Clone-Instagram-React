@@ -1,0 +1,39 @@
+.header{
+    background-color:--var(--background);
+    border-bottom:1px solid var(--border);
+}
+.header .container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    height:60px;
+
+    max-width:957px;
+    margin:0 auto;
+    width:90%;
+}
+
+
+.header .container img{
+    width:109px;
+    cursor:pointer;
+}
+
+.input-fake{
+    background:var(--background-main);
+    border-radius:3px;
+
+    padding:3px 10px;
+
+    border:1px solid var(--border);
+
+    display:flex;
+    align-items:center;
+}
+
+.input-fake input{
+    font-size:14px;
+    padding:0 7px;
+}
+
