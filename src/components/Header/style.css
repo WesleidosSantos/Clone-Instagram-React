@@ -1,6 +1,10 @@
 .header{
-    background-color:--var(--background);
+    background-color: var(--background);
     border-bottom:1px solid var(--border);
+
+    position:fixed;
+    top:0;
+    width:100%;
 }
 .header .container{
     display:flex;

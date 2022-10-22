@@ -4,10 +4,10 @@
     grid-template-areas:"firstColumn secondColumn";
     grid-template-columns:614px 293px;
 
-    grid-gap:50px;
+    grid-gap:35px;
 
     max-width:957px;
-    margin:30px auto;
+    margin:100px auto;
 }
 
 .box{
@@ -15,5 +15,7 @@
     border:1px solid var(--border);
 }
 .suggestionbox{
-    background:var(--background);
+    background:var(--background-main);
+    flex:1;
+    max-width:293px;
 }
